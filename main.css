@@ -1,0 +1,65 @@
+/*===
+ This pattern is downloaded from www.subtlepatterns.com 
+ If you need more, that's where to get'em.
+ ===*/
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	
+ 	box-sizing: inherit;
+}
+
+body {
+    background: url(cork-wallet.png) repeat;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+	margin: 0;
+ 	padding-bottom: 6rem;
+ 	min-height: 100%;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-content: center;
+ 	align-items: center;
+ 	
+}
+
+
+.logo{
+	
+	margin-bottom: 30px;
+}
+.img-audyt{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+}
+.audyt h4{
+	text-align: center;
+	line-height: 30px;
+}
+.text{
+	text-align: justify;
+	font-weight: bold;
+}
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+
+}
+
+.ahref a img:hover{
+	opacity: 0.5;
+}
+
+
+	
